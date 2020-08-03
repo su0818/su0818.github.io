@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+    padding: 0px 0;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 34px 0 14px 40px;
+}
+
+nav > ul {
+    background-color: rgba(232,139,29,1.00);
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+	width:1400px;
+}
+
+nav a {
+    color:#FFFFFF; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 2rem;
+    padding: 30px;
+    text-decoration: none;  /* 移除超連結底線 */
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav li:hover {
+    background-color: rgba(190,108,0,1.00);
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    color: white;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
