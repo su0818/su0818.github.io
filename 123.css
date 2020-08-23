@@ -4,18 +4,19 @@ html { box-sizing: border-box; }
 *, *::before, *::after { box-sizing: inherit; }
 
 body {
-    padding: 0px 0;
+    padding: 0px;
+	margin: 0px 0 0 20px;
 }
 
 h1, h2 {
-    margin: 0;
+    margin: 0px auto;
     padding: 34px 0 14px 40px;
 }
 
 nav > ul {
     background-color: rgba(232,139,29,1.00);
     list-style: none;   /* 移除項目符號 */
-    margin: 0;
+    margin: 0px;
     padding: 0;
 	width:1400px;
 }
@@ -39,6 +40,7 @@ nav li:hover {
 .flex-nav {
     display: flex;
     justify-content: center;
+	
 }
 
 
